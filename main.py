@@ -1,5 +1,4 @@
-"""GTA VI Twitch CCU forecaster — comparable-calibrated trajectory with empirical spread.
-v3: interpolated H24 + GTA VI pre-release scale calibration."""
+"""GTA VI Twitch viewer forecaster — comparable-weighted trajectory with trimmed quantile spread and hole interpolation."""
 import json, math, os, sys
 from pathlib import Path
 from statistics import median
